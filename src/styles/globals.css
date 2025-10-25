@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+/* index.css */
+:root {
+  --primary-color: #344761;
+  --secondary-color: #1f2937;
+}
+
+.section-padding {
+  padding: 4rem; /* 64px */
+}
+
+body {
+  margin: 0;
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0a4b6f;
+  color: #ffffff; /* texto escuro para contraste */
+}
+
+html {
+  scroll-behavior: smooth;
+}
